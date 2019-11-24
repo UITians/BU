@@ -31,13 +31,13 @@
 
   width:100%;
   padding:40px 0;
-   background:grey; 
+   background:black; 
   }
   footer
   {
   width: 100%;
   padding:40px 0;
-   background:grey; 
+   background:black; 
   }
 
   .slidetext
@@ -274,7 +274,7 @@ margin-left: 0px;
 }
 .container{
 
-  background-color: #00277a;
+  background-color: lightgray;
 }
 
 
