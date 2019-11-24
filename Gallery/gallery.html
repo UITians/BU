@@ -1,0 +1,283 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <title>Gallery</title>
+<link rel="shortout icon" type="image/x-icon" href="../image/bulogo.jpg" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+
+</head>
+<body>
+
+
+<div class="bodystyle">
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand" href="#">
+      <img src="../image/bulogo.jpg" class="logostyle">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../about.html" >About</a>
+      </li>
+       <!--<li class="nav-item">
+        <a class="nav-link" href="Gallery/gallery.html" target="_blank">Gallery</a>
+      </li>-->
+       <li class="nav-item">
+        <a class="nav-link" href="#">Contact us</a>
+      </li>
+      
+
+
+      
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Branches
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../IT/itmain.html" >Information Technology</a>
+          <a class="dropdown-item" href="../CS/csmain.html">Computer Science</a>
+            <a class="dropdown-item" href="../MECHANICAL/mechanicalmain.html">Mechanical</a>
+          <a class="dropdown-item" href="../ELECTRICAL/electricalmain.html">Electrical</a>
+          <a class="dropdown-item" href="../CIVIL/civilmain.html">Civil</a>
+
+         <!-- <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>-->
+        </div>
+      </li>
+      <!--
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <!--
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        
+    </form>
+    nav bar end-->
+  </div>
+</nav>
+</div>
+
+<!-- Division 1st End-->
+
+
+
+
+
+
+
+<div class="container">
+ <!--<div class="py-5">
+  <h1 class="text-center display-3"> MY GALLERY </h1>
+  <hr class="text-center w-25 border-dark">
+ </div>-->
+ <h1 style="text-align: center;">GALLERY</h1>
+ <div class="row no-gutters gallerys">
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="images/buimage1.jpg" target="_blank">
+    <img src="images/buimage1.jpg" class="img-fluid">
+   </a>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="images/buimage2.jpg" target="_blank">
+    <img src="images/buimage2.jpg" class="img-fluid">
+   </a>
+  </div>
+
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="images/buimage3.jpg" target="_blank">
+    <img src="images/buimage3.jpg" class="img-fluid">
+   </a>
+  </div>
+
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="images/buimage4.jpg" target="_blank">
+    <img src="images/buimage4.jpg" class="img-fluid">
+   </a>
+  </div>
+
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="images/buimage5.jpg" target="_blank" >
+    <img src="images/buimage5.jpg" class="img-fluid">
+   </a>
+  </div>
+ 
+
+
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="images/buimage6.jpg" target="_blank" >
+    <img src="images/buimage6.jpg" class="img-fluid">
+   </a>
+  </div>
+ 
+
+
+
+
+ </div>
+</div>
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+  <script>
+   $(document).ready(function(){
+    $('.gallerys').magnificPopup({
+     type: 'image',
+     delegate: 'a',
+     gallery: {
+      enabled : true
+     }
+    });
+   });
+  </script>
+
+
+
+<!-- Top up Button code Start-->
+
+<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+<script>
+/*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(funct
+ion() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/
+Post
+</script>
+<!-- Top up Button code End-->
+
+
+
+<!-- Top up Button code End-->
+
+
+
+
+
+
+
+
+<!--Footer Start-->
+
+
+<section  >
+         <h4 style="color:white; text-align:center">Contact Us </h4>
+         <h6 style="color:white; text-align:center"> gmail:amansingh1672000@gmail.com </h6>
+
+         <h4 style="color:white; text-align:center"> 2019-All Rights Reserved. </h4>
+         <h5 style="color:white; text-align:center"> Website Designed and Developed by </h5>
+         <h6 style="color:white; text-align:center"> Aman Singh & Shweta Jain </h6>
+
+</section>
+
+
+<footer>
+
+        <h6 style="color:white; text-align:center">Barkatullah Vishwavidyalaya, Bhopal</h6>
+        <h6 style="color:white; text-align:center">     Hoshangabad Road, BHOPAL-462026,</h6>
+         <h6 style="color:white; text-align:center"> Madhya Pradesh (INDIA)</h6>
+
+<h6 style="color:white; text-align:center">Email: Registrar@bubhopal.nic.in</h6>
+
+</footer>
+
+<!--Footer End-->
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
