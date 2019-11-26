@@ -284,12 +284,27 @@ margin-left: 0px;
 
 
 
+.slidetext{
+  font-family: 'Times New Roman', Times, serif;
+}
+.quotes{
+  font-family: 'Times New Roman', Times, serif;
+}
 
-
-
-
-
-
+.subject{
+  font-family: sans-serif;
+  text-align: center;
+  background-color:lightgrey ;
+}
+.PV{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.books{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.notes{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 
 
