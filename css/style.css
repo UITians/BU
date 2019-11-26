@@ -154,7 +154,7 @@ margin-left: 0px;
 	background-color: blue;
 	color: white;
   
-	font-family: sans-serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-decoration: none;
 	font-size: 0.9em;
 	text-align: center;
@@ -306,10 +306,20 @@ margin-left: 0px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.Semester{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
 
-
-
-
+.dropdown-item{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.slidetext{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-link{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 
 </style>
