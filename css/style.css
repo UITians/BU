@@ -1,8 +1,15 @@
+html{
+  scroll-behavior: smooth;
+  transition-duration: 4s;
+}
+
 *{
 
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 .bodystyle
 {
@@ -18,6 +25,32 @@
   
 }
 
+.navbar{
+  
+}
+.navbar a:hover{
+  background-color:blue;
+  transition:2s;
+  border-radius: 10px;
+  box-shadow: black;
+
+}
+
+
+
+::-webkit-scrollbar
+{
+    width: 16px;
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(transparent,blue);
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background: linear-gradient(transparent,#444444);
+}
 
 
 .button {
@@ -51,21 +84,7 @@ box-shadow: black;
     width: 100%;
     height: 450px;
   }  
-  section
-  {
-
-  width:100%;
-  padding:40px 0;
-   background:black; 
-   
-  }
-  footer
-  {
-  width: 100%;
-  padding:40px 0;
-   background:black; 
-  }
-
+  
   .slidetext
   {
     color: white;
@@ -349,9 +368,12 @@ margin-left: 0px;
 
 @media screen and (max-width:500px)
  {
-  .carousel-item   .slideimage{
-         height: 200px;
+  .carousel-item .carousel-item active img{
+         height: 100;
      }
  }
 <!-- Responsive coding Ending-->
+
+
+
 </style>
