@@ -154,13 +154,13 @@ display: inline;
   margin:20px;
 }
 
-.fa-twitter
+/* .fa-twitter
 {
 color:#2fa9f3;
 margin-left: 0px;
 
-}
-.fa-whatsapp{
+} */
+/* .fa-whatsapp{
 
   color:#32b122;
   margin-left: 0px;
@@ -184,7 +184,7 @@ margin-left: 0px;
  }
 
 
-
+ */
 
 
 .buttonDownload {
@@ -366,11 +366,12 @@ margin-left: 0px;
 }
 <!-- Responsive coding Start-->
 
-@media screen and (max-width:500px)
+@media (max-width:700px)
  {
-  .carousel-item .carousel-item active img{
-         height: 100;
-     }
+   .aboutpara p img {
+    width: 10px;
+    height: 10px;
+  }  
  }
 <!-- Responsive coding Ending-->
 
